@@ -1,0 +1,23 @@
+.create-form {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+input {
+  border: 1px solid green;
+  border-radius: 4px;
+  padding: 8px;
+  outline: 0;
+}
+
+.create-form button {
+  border: 1px solid green;
+  color: white;
+  border-radius: 4px;
+  padding: 8px;
+  outline: 0;
+  background-color: rgb(6, 0, 0);
+  cursor: pointer;
+}

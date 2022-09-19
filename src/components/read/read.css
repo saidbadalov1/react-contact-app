@@ -1,0 +1,40 @@
+.user-list {
+  display: flex;
+  border: 1px solid green;
+  gap: 20px;
+  height: 60px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 500px;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.user-list button {
+  border: 0;
+  outline: 0;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.user-list button:hover {
+  filter: brightness(40%);
+}
+
+.user-list button:first-of-type {
+  background-color: green;
+}
+
+.user-list button:last-of-type {
+  background-color: red;
+}
+
+.user-info {
+  width: 80%;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
